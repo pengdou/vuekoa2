@@ -1,0 +1,27 @@
+[2018-11-21T14:22:33.030] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  ::1
+request query:  {}
+response time: undefined
+err name: undefined
+err message: undefined
+err stack: undefined
+*************** error log end ***************
+
+[2018-11-21T14:22:55.233] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  ::1
+request query:  {}
+response time: undefined
+err name: Error
+err message: aasdfasfasf
+err stack: Error: aasdfasfasf
+    at router.get (/Users/edz/Documents/workspace/biffet/audit/server/routes/index.js:24:21)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+*************** error log end ***************
+
